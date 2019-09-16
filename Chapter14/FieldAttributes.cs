@@ -11,8 +11,5 @@ namespace Chapter14
     {
         [field: Demo]
         public static int Value { get; set; }
-
-        [field: Demo]
-        public static event EventHandler Foo;
     }
 }

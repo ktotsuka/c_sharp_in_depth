@@ -10,7 +10,7 @@ namespace Chapter02
         static void Main()
         {
             Nullable<int> noValue = new Nullable<int>();
-                              // Console.WriteLine(noValue.GetType());
+            // Console.WriteLine(noValue.GetType());
 
             Nullable<int> someValue = new Nullable<int>(5);
             Console.WriteLine(someValue.GetType());
